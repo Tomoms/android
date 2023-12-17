@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="Tomoms/android" revision="u" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <!--
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
@@ -59,7 +59,7 @@
   <!--
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
   -->
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="Tomoms/android_vendor_lineage" revision="u" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
