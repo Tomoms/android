@@ -1050,10 +1050,10 @@
   <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio" />
-  <project path="packages/apps/TvFeedbackConsent" name="platform/packages/apps/TvFeedbackConsent" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" />
-  <project path="packages/apps/TvSystemUI" name="LineageOS/android_packages_apps_TvSystemUI" groups="pdk-fs" />
-  <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" />
+  <project path="packages/apps/TvFeedbackConsent" name="platform/packages/apps/TvFeedbackConsent" groups="pdk-fs" remote="aosp" clone-depth="1" />
+  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" clone-depth="1" />
+  <project path="packages/apps/TvSystemUI" name="LineageOS/android_packages_apps_TvSystemUI" groups="pdk-fs" clone-depth="1" />
+  <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
   <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
@@ -1083,7 +1083,7 @@
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/NetworkStack" name="Tomoms/android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="u" />
-  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" remote="aosp" />
