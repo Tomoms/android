@@ -20,7 +20,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
+  <project path="external/openssh" name="Tomoms/android_external_openssh" groups="pdk" revision="16" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
@@ -50,7 +50,7 @@
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
   <project path="packages/apps/Updater" name="Tomoms/android_packages_apps_Updater" revision="16" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
+  <project path="packages/overlays/Lineage" name="Tomoms/android_packages_overlays_Lineage" revision="16" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
