@@ -37,7 +37,7 @@
   <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed,sysui-studio" />
   <project path="build/soong" name="Tomoms/android_build_soong" groups="pdk,tradefed,sysui-studio" revision="16.2" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="Tomoms/android_bionic" groups="pdk" revision="16.2" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
@@ -252,7 +252,7 @@
   <project path="external/javassist" name="platform/external/javassist" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/jazzer-api" name="platform/external/jazzer-api" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/jemalloc_new" name="yaap/external_jemalloc_new" groups="pdk" revision="sixteen" clone-depth="1" />
   <project path="external/jetpack-camera-app" name="platform/external/jetpack-camera-app" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/jimfs" name="platform/external/jimfs" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/jline" name="platform/external/jline" groups="pdk,tradefed,pdk-fs" remote="aosp" clone-depth="1" />
