@@ -528,7 +528,7 @@
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/SPIRV-Headers" name="platform/external/SPIRV-Headers" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/SPIRV-Tools" name="platform/external/SPIRV-Tools" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" clone-depth="1" />
+  <project path="external/sqlite" name="Tomoms/android_external_sqlite" groups="pdk" clone-depth="1" revision="16.2" />
   <project path="external/spdx-tools" name="platform/external/spdx-tools" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/starlark-go" name="platform/external/starlark-go" groups="pdk" remote="aosp" clone-depth="1" />
