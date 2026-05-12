@@ -221,4 +221,11 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+
+  <!-- Q25 -->
+  <project path="device/xelex/Q25" name="LineageOS/android_device_xelex_Q25" />
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" />
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" />
+  <project path="kernel/xelex/mt6789" name="Tomoms/android_kernel_xelex_mt6789" />
+  <project name="TheMuppets/proprietary_vendor_xelex_Q25" path="vendor/xelex/Q25" groups="muppets,muppets_Q25" clone-depth="1" />
 </manifest>
