@@ -16,7 +16,8 @@
   <default revision="refs/heads/lineage-23.2"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="4"
+           clone-depth="1" />
 
   <contactinfo bugurl="go/repo-bug" />
 
