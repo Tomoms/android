@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
@@ -228,4 +229,5 @@
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" />
   <project path="kernel/xelex/mt6789" name="Tomoms/android_kernel_xelex_mt6789" />
   <project name="TheMuppets/proprietary_vendor_xelex_Q25" path="vendor/xelex/Q25" groups="muppets,muppets_Q25" clone-depth="1" />
+  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="gitlab" revision="baklava" />
 </manifest>
