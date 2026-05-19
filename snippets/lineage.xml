@@ -230,4 +230,5 @@
   <project path="kernel/xelex/mt6789" name="Tomoms/android_kernel_xelex_mt6789" />
   <project name="TheMuppets/proprietary_vendor_xelex_Q25" path="vendor/xelex/Q25" groups="muppets,muppets_Q25" clone-depth="1" />
   <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="gitlab" revision="baklava" />
+  <project path="vendor_extra" name="Tomoms/android_vendor_extra" revision="Q25" />
 </manifest>
