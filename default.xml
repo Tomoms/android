@@ -893,7 +893,7 @@
   <project path="system/authgraph" name="platform/system/authgraph" groups="pdk" remote="aosp" />
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
-  <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
+  <project path="system/ca-certificates" name="GrapheneOS/platform_system_ca-certificates" groups="pdk" revision="16-qpr2" />
   <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/core" name="Tomoms/android_system_core" groups="pdk" revision="16.2" />
