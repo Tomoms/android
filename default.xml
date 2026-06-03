@@ -83,7 +83,7 @@
   <project path="external/apache-velocity-engine" name="platform/external/apache-velocity-engine" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" remote="aosp" clone-depth="1" />
-  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/arm-optimized-routines" name="yaap/external_arm-optimized-routines" groups="pdk" revision="sixteen" clone-depth="1" />
   <project path="external/arm-trusted-firmware" name="LineageOS/android_external_arm-trusted-firmware" groups="pdk" clone-depth="1" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/automotive-design-compose-protos" name="platform/external/automotive-design-compose-protos" groups="pdk" remote="aosp" clone-depth="1" />
