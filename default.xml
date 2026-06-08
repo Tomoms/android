@@ -327,7 +327,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" clone-depth="1" />
+  <project path="external/libpng" name="Tomoms/android_external_libpng" groups="pdk" revision="16.2" />
   <project path="external/libppd" name="platform/external/libppd" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" remote="aosp" clone-depth="1" />
