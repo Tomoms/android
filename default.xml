@@ -343,7 +343,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="Tomoms/android_external_libpng" groups="pdk" revision="17" />
   <project path="external/libppd" name="LineageOS/android_external_libppd" groups="pdk" clone-depth="1" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" remote="aosp" clone-depth="1" />
@@ -642,7 +642,7 @@
   <project path="frameworks/opt/localepicker" name="platform/frameworks/opt/localepicker" groups="pdk-arsp-ag-sot,pdk-arsp-common" remote="aosp" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk,sysui-studio" remote="aosp" />
+  <project path="frameworks/opt/net/wifi" name="Tomoms/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" revision="17" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk,sysui-studio" />
@@ -764,7 +764,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs,pdk-cw-fs" remote="aosp" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+  <project path="packages/apps/Settings" name="Tomoms/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" revision="17" />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp" />
