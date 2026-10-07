@@ -124,7 +124,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-arsp-ag-sot,pdk-arsp-common" remote="aosp" clone-depth="1" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" groups="pdk" clone-depth="1" />
+  <project path="external/conscrypt" name="LineageOS/platform_external_conscrypt" groups="pdk" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/cronet" name="platform/external/cronet" groups="pdk" remote="aosp" clone-depth="1" />
@@ -632,7 +632,7 @@
   <project path="frameworks/libs/systemui" name="Tomoms/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="17" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk,sysui-studio" />
+  <project path="frameworks/native" name="Tomoms/android_frameworks_native" groups="pdk,sysui-studio" revision="17" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/car/services" name="LineageOS/android_frameworks_opt_car_services" groups="pdk-cw-fs,pdk-fs" />
@@ -645,7 +645,7 @@
   <project path="frameworks/opt/net/wifi" name="Tomoms/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" revision="17" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk,sysui-studio" />
+  <project path="frameworks/opt/telephony" name="Tomoms/android_frameworks_opt_telephony" groups="pdk,sysui-studio" revision="17" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
