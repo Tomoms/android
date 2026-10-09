@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="packages/apps/LogViewer" name="GrapheneOS/platform_packages_apps_LogViewer" groups="pdk-fs" revision="17" />
+  <project path="packages/apps/AppCompatConfig" name="GrapheneOS/platform_packages_apps_AppCompatConfig" groups="pdk-fs" revision="17" />
+  <project path="external/AppCompatConfig" name="GrapheneOS/platform_external_AppCompatConfig" groups="pdk-fs" revision="17" />  
+</manifest>
