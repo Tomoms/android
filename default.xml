@@ -36,7 +36,7 @@
   <project path="art" name="Tomoms/android_art" groups="pdk" revision="17" />
   <project path="bionic" name="Tomoms/android_bionic" groups="pdk" revision="17" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="Tomoms/android_bootable_recovery" groups="pdk" revision="17" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -750,7 +750,7 @@
   <project path="packages/apps/Launcher3" name="Tomoms/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" revision="17" />
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="Tomoms/android_packages_apps_Messaging" groups="pdk-fs" revision="17" />
   <project path="packages/apps/Multiuser" name="platform/packages/apps/Multiuser" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" remote="aosp" />
@@ -783,7 +783,7 @@
   <project path="packages/inputmethods/LatinIME" name="Tomoms/android_packages_inputmethods_LatinIME" groups="pdk-fs" revision="17" />
   <project path="packages/inputmethods/LeanbackIME" name="LineageOS/android_packages_inputmethods_LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" />
-  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp" />
+  <project path="packages/modules/AdServices" name="Tomoms/android_packages_modules_AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="17" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" remote="aosp" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="packages/modules/Bluetooth" name="Tomoms/android_packages_modules_Bluetooth" groups="pdk" revision="17" />
